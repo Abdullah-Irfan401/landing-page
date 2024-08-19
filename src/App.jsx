@@ -49,9 +49,9 @@ function App() {
             </a>
           </div>
           <div className="wrapper">
-            <img className="crys1" src="dist\crystal1.png" alt="crystal1" />
-            <img className="crys2" src="public\crystal2.png" alt="crystar2" />
-            <img className="crys3" src="public\crystal3.png" alt="crystal3" />
+            <img className="crys1" src="./crystal1.png" alt="crystal1" />
+            <img className="crys2" src="./crystal2.png" alt="crystar2" />
+            <img className="crys3" src="./crystal3.png" alt="crystal3" />
           </div>
         </div>
       </div>
@@ -60,27 +60,27 @@ function App() {
       <div className="section-logo">
         <h1 className="logoh1">1M+ employees trusting us with their careers</h1>
         <div className="row1">
-          <img className="logo" src="public\totalenergies.png" alt="totalrnergies" />
-          <img className="logo" src="public\sncf.png" alt="sncf" />
-          <img className="logo" src="public\ey.png" alt="ey" />
-          <img className="logo" src="public\eiffage.png" alt="eiffage" />
-          <img className="logo" src="public\atr.png" alt="atr" />
+          <img className="logo" src="./totalenergies.png" alt="totalrnergies" />
+          <img className="logo" src="./sncf.png" alt="sncf" />
+          <img className="logo" src="./ey.png" alt="ey" />
+          <img className="logo" src="./eiffage.png" alt="eiffage" />
+          <img className="logo" src="./atr.png" alt="atr" />
         </div>
         <br />
         <div className="hr"></div>
         <div className="row2">
-          <img className="logo" src="public\veolia.png" alt="veolia" />
-          <img className="logo" src="public\societegenerale.png" alt="societegenerale" />
-          <img className="logo" src="public\bearingpoint.png" alt="bearingpoint" />
-          <img className="logo" src="public\segula.png" alt="segula" />
-          <img className="logo" src="public\creditagricole.png" alt="creditagricole" />
+          <img className="logo" src="./veolia.png" alt="veolia" />
+          <img className="logo" src="./societegenerale.png" alt="societegenerale" />
+          <img className="logo" src="./bearingpoint.png" alt="bearingpoint" />
+          <img className="logo" src="./segula.png" alt="segula" />
+          <img className="logo" src="./creditagricole.png" alt="creditagricole" />
         </div>
         <div className="hr"></div>
       </div>
-      <div className="section-explain">
+      {/* <div className="section-explain">
         <h1>Start your skills journey with us </h1>
       </div>
-      <div className="page3"></div>
+      <div className="page3"></div> */}
     </div>
   );
 }

@@ -11,6 +11,7 @@
   body{
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
   }
 
   @media(max-width:998px){
@@ -197,22 +198,4 @@ position: relative;
   margin: auto;
  }
 
-.section-explain{
-  height: 100%;
-  width: 100%;
-  /* padding: 20vw; */
-  background: linear-gradient(90deg, #65fc91, #56e6ae, #ebebeb, #54ceda ); 
-
-}
-
-.page3 {
-  height: 100rem;
-  width: 100%;
-  background-color: #20114f;
-}
-
-
-.section-explain h1{
-  font-size: 60rem;
-  overflow-x: visible; 
-}
+ 
