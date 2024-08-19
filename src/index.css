@@ -1,0 +1,210 @@
+
+  html {
+    /* margin: 0;
+    padding: 0;
+    height: 100%;
+    justify-content: center;
+    align-items: center;  */
+    font-size: 62.5%;
+  }
+
+  /* body{
+    overflow-x: hidden;
+  } */
+
+  @media(max-width:998px){
+    html{
+      font-size: 45%;
+    }
+  }
+  @media(max-width:768px){
+    html{
+      font-size: 30%;
+    }
+  }
+  @media(max-width:580px){
+    html{
+      font-size: 20%;
+    }
+  }
+  @media(max-width:360px){
+    html{
+      font-size: 15%;
+    }
+  }
+  
+  
+  
+  /* .maincontainer{
+    position: absolute;
+    background: linear-gradient(90deg, #65fc91, #56e6ae, #ebebeb, #54ceda ); 
+    height: 85rem;
+    width: 100%; 
+    margin-top: -1.92rem;
+    margin-left: -1.92rem;
+    margin-right: -19.2rem;
+    } */
+    
+
+    
+    .maincontainer .triangle1{
+      /* background: #65fc91;
+      /* width: 100%;  */
+      background: linear-gradient(90deg, #65fc91, #56e6ae, #ebebeb, #54ceda ); 
+      height: 85rem;
+      clip-path: polygon(0 0, 12% 0, 32% 95%, 0% 100%);
+      margin-top: -2rem;
+      margin-left: -2rem;
+    }
+    .maincontainer .triangle2{
+      height: 85rem;
+      background: linear-gradient(90deg,#54ceda ,#65fc91  ); 
+      /* #56e6ae, #ebebeb, */
+      clip-path: polygon(100% 0, 67% 0, 100% 36%);
+      margin-top: -90rem;
+    }
+    .maincontainer .triangle3{
+      height: 85rem;
+      background: linear-gradient(90deg, #65fc91, #56e6ae, #ebebeb, #54ceda ); 
+      clip-path: polygon(100% 86%, 55% 92%, 100% 32%);
+      margin-top: -80rem;
+    }
+    .maincontainer .triangle4{
+      height: 85rem;
+      background: linear-gradient(180deg,#54ceda , #65fc91,  #ebebeb  ); 
+      clip-path: polygon(12% 0, 74% 0, 56% 92%, 32% 95%);
+      margin-top: -85rem;
+      margin-left: -2.1rem;
+    } 
+      
+  
+  .container {
+  text-align: center;
+  padding: 2rem;  
+  border-radius: 1rem;
+  margin-top: -2rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+  
+}
+  
+.content{
+position: relative;
+}
+
+
+.home .maincontainer .container h1 {
+  font-size: 9rem;
+  font-family: TT Ramillas Bold;
+  margin-bottom: 2rem;
+  color: #20114f;
+  margin-top: -70rem;
+}
+
+
+.home .maincontainer .container p {
+  font-size: 2rem;
+  color: #20114f;
+  margin-bottom: 3rem;
+}
+
+
+.home .maincontainer .container .btn {
+  background: linear-gradient(45deg, #503db0, #28185f); 
+  color: white;
+  padding: 1.5rem 3rem;
+  text-decoration: none;
+  border-radius: 5rem;
+  font-size: 1.5rem;
+  transition: background-color 3s ease-in;
+}
+
+.home .maincontainer .container .btn:hover {
+  background: linear-gradient(45deg, #28185f, #503db0 ); 
+  background-color: #503db0;
+}
+
+
+.home .maincontainer .container .wrapper{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home .maincontainer .container .wrapper .crys1{
+  position: relative  ;
+  width: 25rem;
+  bottom: 55rem;
+  left: -45rem;
+  z-index: 0;
+  
+}
+.home .maincontainer .container .wrapper .crys2{
+  position: relative  ;
+  bottom: 30rem;
+  left: 45rem;
+  width: 22rem;
+  z-index: 0;
+}
+.home .maincontainer .container .wrapper .crys3{
+  position: relative  ;
+  top: -25rem;
+  right: 70rem;
+  z-index: 0;
+  width: 13rem;
+  
+}
+
+.sectionlogo{
+  margin-top: -30rem;
+  margin-bottom: 30rem;
+
+}
+
+.logoh1{
+  font-size: 5rem;
+  font-family: TT Ramillas Bold;
+  color: #20114f;
+  text-align: center;
+}
+.logo{
+  text-align: center;
+  justify-content: center;
+  width: 16rem;
+  padding: 5rem;
+}
+ .row1{
+  margin-top: 9.6rem;
+  text-align: center;
+ }
+
+
+ .row2{
+  margin-top: 1rem;
+  text-align: center;
+ }
+
+ .hr {
+  background: linear-gradient(100deg, #ffa1de 0, #7e65fe 24.28%, #59fc89 49.43%, #52b9ff 65.43%);
+  width: 100rem;
+  height: .1rem;
+  border: 0rem solid white;
+  /* text-align: center;
+  justify-content: center; */
+  margin: auto;
+ }
+
+.section-explain{
+  height: 100%;
+  width: 100%;
+  /* padding: 20vw; */
+  background: linear-gradient(90deg, #65fc91, #56e6ae, #ebebeb, #54ceda ); 
+
+}
+
+.section-explain h1{
+  font-size: 2rem;
+  /* overflow-x: hidden;  */
+}
