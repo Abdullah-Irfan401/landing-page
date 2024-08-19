@@ -8,9 +8,10 @@
     font-size: 62.5%;
   }
 
-  /* body{
-    overflow-x: hidden;
-  } */
+  body{
+    height: 100%;
+    width: 100%;
+  }
 
   @media(max-width:998px){
     html{
@@ -204,7 +205,14 @@ position: relative;
 
 }
 
+.page3 {
+  height: 100rem;
+  width: 100%;
+  background-color: #20114f;
+}
+
+
 .section-explain h1{
-  font-size: 2rem;
-  /* overflow-x: hidden;  */
+  font-size: 60rem;
+  overflow-x: visible; 
 }

@@ -80,6 +80,7 @@ function App() {
       <div className="section-explain">
         <h1>Start your skills journey with us </h1>
       </div>
+      <div className="page3"></div>
     </div>
   );
 }
