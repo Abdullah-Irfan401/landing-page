@@ -15,7 +15,6 @@ function App() {
       scrollTrigger: {
         trigger: ".crys1 , .crys2 , .crys3",
         scroller: "body",
-        markers: true,
         start: "top",
         end: "450rem",
         scrub: true,
