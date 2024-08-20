@@ -1,0 +1,38 @@
+.sectionlogo{
+    margin-top: 0rem;
+    margin-bottom: 5rem;
+  
+  }
+  
+  .logoh1{
+    font-size: 5rem;
+    font-family: TT Ramillas Bold;
+    color: #20114f;
+    text-align: center;
+  }
+  .logo{
+    text-align: center;
+    justify-content: center;
+    width: 16rem;
+    padding: 5rem;
+  }
+   .row1{
+    margin-top: 9.6rem;
+    text-align: center;
+   }
+  
+  
+   .row2{
+    margin-top: 1rem;
+    text-align: center;
+   }
+  
+   .hr {
+    background: linear-gradient(100deg, #ffa1de 0, #7e65fe 24.28%, #59fc89 49.43%, #52b9ff 65.43%);
+    width: 100rem;
+    height: .1rem;
+    border: 0rem solid white;
+    /* text-align: center;
+    justify-content: center; */
+    margin: auto;
+   }
