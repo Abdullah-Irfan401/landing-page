@@ -6,20 +6,55 @@ gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 import Style from "./FirstSection.module.css"
 import Btn from "../components/Btn";
-
+import { useRef } from "react";
 
 
 
 function FirstSection() {
 
+  const crystal1 = useRef();
+  const crystal2 = useRef();
+  const crystal3 = useRef();
+  
+  
+  
   useGSAP(() => {
-    gsap.to(".crys1 , .crys2 , .crys3", {
+    gsap.to(crystal1.current, {
       y: -150,
       scrollTrigger: {
-        trigger: ".crys1 , .crys2 , .crys3",
+        trigger: crystal2.current,
         scroller: "body",
-        markers: true,
-        start: "top",
+        start: "top 400rem",
+        end: "450rem",
+        scrub: true,
+        // pin: true
+      },
+    });
+  });
+
+
+  useGSAP(() => {
+    gsap.to(crystal2.current, {
+      y: -150,
+      scrollTrigger: {
+        trigger: crystal2.current,
+        scroller: "body",
+        start: "top 400rem",
+        end: "450rem",
+        scrub: true,
+        // pin: true
+      },
+    });
+  });
+
+
+  useGSAP(() => {
+    gsap.to(crystal3.current, {
+      y: -150,
+      scrollTrigger: {
+        trigger: crystal3.current,
+        scroller: "body",
+        start: "top 400rem",
         end: "450rem",
         scrub: true,
         // pin: true
@@ -51,10 +86,10 @@ function FirstSection() {
             <Btn/>
 
           </div>
-          <div className={Style.wrapper}>
-            <img className={Style.crys1} src="./crystal1.png" alt="crystal1" />
-            <img className={Style.crys2} src="./crystal2.png" alt="crystar2" />
-            <img className={Style.crys3} src="./crystal3.png" alt="crystal3" />
+          <div className={Style.wrapper}  >
+            <img className={Style.crys1} ref={crystal1} src="./crystal1.png" alt="crystal1" />
+            <img className={Style.crys2} ref={crystal2} src="./crystal2.png" alt="crystar2" />
+            <img className={Style.crys3} ref={crystal3} src="./crystal3.png" alt="crystal3" />
           </div>
         </div>
       </div>
